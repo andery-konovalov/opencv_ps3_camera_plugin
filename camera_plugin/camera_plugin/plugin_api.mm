@@ -49,7 +49,6 @@ CvResult CV_API_CALL cv_capture_open(const char* filename, int camera_index, CV_
     }
     try
     {
-        src_image1 = cv::imread( "/Users/konovalov/work/projects/temp/opencv_test/Stone/RightPhone/20200207_202138.jpg", IMREAD_UNCHANGED );
         cap = new PS3CamCapture(drv);
         bool res;
         if (filename)
