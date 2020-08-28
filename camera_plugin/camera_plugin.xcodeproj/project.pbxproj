@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E982EBD24F2CBF800A7E6BB /* camera_plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EBC24F2CBF800A7E6BB /* camera_plugin.h */; };
+		0E982EBF24F2CBF800A7E6BB /* camera_plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EBE24F2CBF800A7E6BB /* camera_plugin.m */; };
+		0E982ECB24F2F0D100A7E6BB /* plugin_api.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E982ECA24F2F0D100A7E6BB /* plugin_api.mm */; };
+		0E982ECD24F2FC6500A7E6BB /* PS3CamCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E982ECC24F2FC6500A7E6BB /* PS3CamCapture.mm */; };
+		0E982ED124F3C12400A7E6BB /* libopencv_core.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982ED024F3C12400A7E6BB /* libopencv_core.4.4.0.dylib */; };
+		0E982F2424F3EC2300A7E6BB /* OV7670.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EE524F3EC2300A7E6BB /* OV7670.h */; };
+		0E982F2524F3EC2300A7E6BB /* OV76xx.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EE624F3EC2300A7E6BB /* OV76xx.h */; };
+		0E982F2624F3EC2300A7E6BB /* OV7F7F.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EE724F3EC2300A7E6BB /* OV7F7F.m */; };
+		0E982F2724F3EC2300A7E6BB /* ControllerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EE824F3EC2300A7E6BB /* ControllerInterface.m */; };
+		0E982F2824F3EC2300A7E6BB /* OmniVisionSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EE924F3EC2300A7E6BB /* OmniVisionSensor.m */; };
+		0E982F2924F3EC2300A7E6BB /* Sensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EEA24F3EC2300A7E6BB /* Sensor.h */; };
+		0E982F2A24F3EC2300A7E6BB /* OV7660.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EEB24F3EC2300A7E6BB /* OV7660.h */; };
+		0E982F2B24F3EC2300A7E6BB /* OV7640.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EEC24F3EC2300A7E6BB /* OV7640.m */; };
+		0E982F2C24F3EC2300A7E6BB /* OV7F7F.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EED24F3EC2300A7E6BB /* OV7F7F.h */; };
+		0E982F2D24F3EC2300A7E6BB /* OV76xx.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EEE24F3EC2300A7E6BB /* OV76xx.m */; };
+		0E982F2E24F3EC2300A7E6BB /* OV7670.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EEF24F3EC2300A7E6BB /* OV7670.m */; };
+		0E982F2F24F3EC2300A7E6BB /* OV7660.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EF024F3EC2300A7E6BB /* OV7660.m */; };
+		0E982F3024F3EC2300A7E6BB /* Sensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EF124F3EC2300A7E6BB /* Sensor.m */; };
+		0E982F3124F3EC2300A7E6BB /* OmniVisionSensor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EF224F3EC2300A7E6BB /* OmniVisionSensor.h */; };
+		0E982F3224F3EC2300A7E6BB /* ControllerInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EF324F3EC2300A7E6BB /* ControllerInterface.h */; };
+		0E982F3324F3EC2300A7E6BB /* OV7640.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EF424F3EC2300A7E6BB /* OV7640.h */; };
+		0E982F3424F3EC2300A7E6BB /* OV534Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EF524F3EC2300A7E6BB /* OV534Driver.m */; };
+		0E982F3524F3EC2300A7E6BB /* MyCameraDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EF724F3EC2300A7E6BB /* MyCameraDriver.m */; };
+		0E982F3624F3EC2300A7E6BB /* MyDummyCameraDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EFA24F3EC2300A7E6BB /* MyDummyCameraDriver.h */; };
+		0E982F3724F3EC2300A7E6BB /* MyCameraCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EFB24F3EC2300A7E6BB /* MyCameraCentral.m */; };
+		0E982F3824F3EC2300A7E6BB /* MyCameraInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EFC24F3EC2300A7E6BB /* MyCameraInfo.h */; };
+		0E982F3924F3EC2300A7E6BB /* MyCameraDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982EFD24F3EC2300A7E6BB /* MyCameraDriver.h */; };
+		0E982F3A24F3EC2300A7E6BB /* MyDummyCameraDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EFE24F3EC2300A7E6BB /* MyDummyCameraDriver.m */; };
+		0E982F3B24F3EC2300A7E6BB /* MyCameraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EFF24F3EC2300A7E6BB /* MyCameraInfo.m */; };
+		0E982F3C24F3EC2300A7E6BB /* MyCameraCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0024F3EC2300A7E6BB /* MyCameraCentral.h */; };
+		0E982F3D24F3EC2300A7E6BB /* GenericDriver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0124F3EC2300A7E6BB /* GenericDriver.h */; };
+		0E982F3E24F3EC2300A7E6BB /* JpgDecompress.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0324F3EC2300A7E6BB /* JpgDecompress.h */; };
+		0E982F3F24F3EC2300A7E6BB /* MiniGraphicsTools.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0424F3EC2300A7E6BB /* MiniGraphicsTools.c */; };
+		0E982F4024F3EC2300A7E6BB /* FrameCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0524F3EC2300A7E6BB /* FrameCounter.h */; };
+		0E982F4124F3EC2300A7E6BB /* Histogram.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0624F3EC2300A7E6BB /* Histogram.m */; };
+		0E982F4224F3EC2300A7E6BB /* LookUpTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0724F3EC2300A7E6BB /* LookUpTable.m */; };
+		0E982F4324F3EC2300A7E6BB /* MiscTools.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0824F3EC2300A7E6BB /* MiscTools.c */; };
+		0E982F4424F3EC2300A7E6BB /* yuv2rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0924F3EC2300A7E6BB /* yuv2rgb.c */; };
+		0E982F4524F3EC2300A7E6BB /* RGB888Scaler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0A24F3EC2300A7E6BB /* RGB888Scaler.h */; };
+		0E982F4724F3EC2300A7E6BB /* GlobalDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0C24F3EC2300A7E6BB /* GlobalDefs.h */; };
+		0E982F4824F3EC2300A7E6BB /* BayerConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F0D24F3EC2300A7E6BB /* BayerConverter.h */; };
+		0E982F4924F3EC2300A7E6BB /* AGC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0E24F3EC2300A7E6BB /* AGC.m */; };
+		0E982F4A24F3EC2300A7E6BB /* RGBScaler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F0F24F3EC2300A7E6BB /* RGBScaler.m */; };
+		0E982F4B24F3EC2300A7E6BB /* Resolvers.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F1024F3EC2300A7E6BB /* Resolvers.c */; };
+		0E982F4C24F3EC2300A7E6BB /* RGBScalerIncluded.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1124F3EC2300A7E6BB /* RGBScalerIncluded.h */; };
+		0E982F4D24F3EC2300A7E6BB /* JpgDecompress.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F1224F3EC2300A7E6BB /* JpgDecompress.c */; };
+		0E982F4E24F3EC2300A7E6BB /* MiscTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1324F3EC2300A7E6BB /* MiscTools.h */; };
+		0E982F4F24F3EC2300A7E6BB /* LookUpTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1424F3EC2300A7E6BB /* LookUpTable.h */; };
+		0E982F5024F3EC2300A7E6BB /* FrameCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F1524F3EC2300A7E6BB /* FrameCounter.m */; };
+		0E982F5224F3EC2300A7E6BB /* Histogram.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1724F3EC2300A7E6BB /* Histogram.h */; };
+		0E982F5324F3EC2300A7E6BB /* MiniGraphicsTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1824F3EC2300A7E6BB /* MiniGraphicsTools.h */; };
+		0E982F5424F3EC2300A7E6BB /* RGB888Scaler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F1924F3EC2300A7E6BB /* RGB888Scaler.m */; };
+		0E982F5524F3EC2300A7E6BB /* USB_VendorProductIDs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1A24F3EC2300A7E6BB /* USB_VendorProductIDs.h */; };
+		0E982F5724F3EC2300A7E6BB /* yuv2rgb.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1C24F3EC2300A7E6BB /* yuv2rgb.h */; };
+		0E982F5824F3EC2300A7E6BB /* Resolvers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1D24F3EC2300A7E6BB /* Resolvers.h */; };
+		0E982F5924F3EC2300A7E6BB /* RGBScaler.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F1E24F3EC2300A7E6BB /* RGBScaler.h */; };
+		0E982F5B24F3EC2300A7E6BB /* AGC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F2024F3EC2300A7E6BB /* AGC.h */; };
+		0E982F5C24F3EC2300A7E6BB /* BayerConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F2124F3EC2300A7E6BB /* BayerConverter.m */; };
+		0E982F5D24F3EC2300A7E6BB /* OV534Driver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F2224F3EC2300A7E6BB /* OV534Driver.h */; };
+		0E982F5E24F3EC2300A7E6BB /* GenericDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F2324F3EC2300A7E6BB /* GenericDriver.m */; };
+		0E982F6124F3ED5000A7E6BB /* CameraManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E982F5F24F3ED5000A7E6BB /* CameraManager.h */; };
+		0E982F6224F3ED5000A7E6BB /* CameraManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0E982F6024F3ED5000A7E6BB /* CameraManager.mm */; };
+		0E982F6824F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982F6724F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib */; };
+		0E982F6924F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0E982F6724F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0E982F6C24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982F6B24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib */; };
+		0E982F6D24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0E982F6B24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E982F6A24F5545C00A7E6BB /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0E982F6D24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib in Embed Libraries */,
+				0E982F6924F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E982EB924F2CBF800A7E6BB /* libopencv_videoio_ps3_camera_osx.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libopencv_videoio_ps3_camera_osx.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E982EBC24F2CBF800A7E6BB /* camera_plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = camera_plugin.h; sourceTree = "<group>"; };
+		0E982EBE24F2CBF800A7E6BB /* camera_plugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = camera_plugin.m; sourceTree = "<group>"; };
+		0E982ECA24F2F0D100A7E6BB /* plugin_api.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = plugin_api.mm; sourceTree = "<group>"; };
+		0E982ECC24F2FC6500A7E6BB /* PS3CamCapture.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PS3CamCapture.mm; sourceTree = "<group>"; };
+		0E982ECE24F2FCD900A7E6BB /* PS3CamCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PS3CamCapture.h; sourceTree = "<group>"; };
+		0E982ED024F3C12400A7E6BB /* libopencv_core.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_core.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982EE524F3EC2300A7E6BB /* OV7670.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV7670.h; sourceTree = "<group>"; };
+		0E982EE624F3EC2300A7E6BB /* OV76xx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV76xx.h; sourceTree = "<group>"; };
+		0E982EE724F3EC2300A7E6BB /* OV7F7F.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV7F7F.m; sourceTree = "<group>"; };
+		0E982EE824F3EC2300A7E6BB /* ControllerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerInterface.m; sourceTree = "<group>"; };
+		0E982EE924F3EC2300A7E6BB /* OmniVisionSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmniVisionSensor.m; sourceTree = "<group>"; };
+		0E982EEA24F3EC2300A7E6BB /* Sensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sensor.h; sourceTree = "<group>"; };
+		0E982EEB24F3EC2300A7E6BB /* OV7660.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV7660.h; sourceTree = "<group>"; };
+		0E982EEC24F3EC2300A7E6BB /* OV7640.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV7640.m; sourceTree = "<group>"; };
+		0E982EED24F3EC2300A7E6BB /* OV7F7F.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV7F7F.h; sourceTree = "<group>"; };
+		0E982EEE24F3EC2300A7E6BB /* OV76xx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV76xx.m; sourceTree = "<group>"; };
+		0E982EEF24F3EC2300A7E6BB /* OV7670.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV7670.m; sourceTree = "<group>"; };
+		0E982EF024F3EC2300A7E6BB /* OV7660.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV7660.m; sourceTree = "<group>"; };
+		0E982EF124F3EC2300A7E6BB /* Sensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sensor.m; sourceTree = "<group>"; };
+		0E982EF224F3EC2300A7E6BB /* OmniVisionSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmniVisionSensor.h; sourceTree = "<group>"; };
+		0E982EF324F3EC2300A7E6BB /* ControllerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerInterface.h; sourceTree = "<group>"; };
+		0E982EF424F3EC2300A7E6BB /* OV7640.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV7640.h; sourceTree = "<group>"; };
+		0E982EF524F3EC2300A7E6BB /* OV534Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OV534Driver.m; sourceTree = "<group>"; };
+		0E982EF724F3EC2300A7E6BB /* MyCameraDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCameraDriver.m; sourceTree = "<group>"; };
+		0E982EF924F3EC2300A7E6BB /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/DriverLocalizable.strings; sourceTree = "<group>"; };
+		0E982EFA24F3EC2300A7E6BB /* MyDummyCameraDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDummyCameraDriver.h; sourceTree = "<group>"; };
+		0E982EFB24F3EC2300A7E6BB /* MyCameraCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCameraCentral.m; sourceTree = "<group>"; };
+		0E982EFC24F3EC2300A7E6BB /* MyCameraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCameraInfo.h; sourceTree = "<group>"; };
+		0E982EFD24F3EC2300A7E6BB /* MyCameraDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCameraDriver.h; sourceTree = "<group>"; };
+		0E982EFE24F3EC2300A7E6BB /* MyDummyCameraDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDummyCameraDriver.m; sourceTree = "<group>"; };
+		0E982EFF24F3EC2300A7E6BB /* MyCameraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCameraInfo.m; sourceTree = "<group>"; };
+		0E982F0024F3EC2300A7E6BB /* MyCameraCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCameraCentral.h; sourceTree = "<group>"; };
+		0E982F0124F3EC2300A7E6BB /* GenericDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericDriver.h; sourceTree = "<group>"; };
+		0E982F0324F3EC2300A7E6BB /* JpgDecompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpgDecompress.h; sourceTree = "<group>"; };
+		0E982F0424F3EC2300A7E6BB /* MiniGraphicsTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MiniGraphicsTools.c; sourceTree = "<group>"; };
+		0E982F0524F3EC2300A7E6BB /* FrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameCounter.h; sourceTree = "<group>"; };
+		0E982F0624F3EC2300A7E6BB /* Histogram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Histogram.m; sourceTree = "<group>"; };
+		0E982F0724F3EC2300A7E6BB /* LookUpTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookUpTable.m; sourceTree = "<group>"; };
+		0E982F0824F3EC2300A7E6BB /* MiscTools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MiscTools.c; sourceTree = "<group>"; };
+		0E982F0924F3EC2300A7E6BB /* yuv2rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv2rgb.c; sourceTree = "<group>"; };
+		0E982F0A24F3EC2300A7E6BB /* RGB888Scaler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGB888Scaler.h; sourceTree = "<group>"; };
+		0E982F0B24F3EC2300A7E6BB /* yuv2rgbCPIA422.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv2rgbCPIA422.c; sourceTree = "<group>"; };
+		0E982F0C24F3EC2300A7E6BB /* GlobalDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefs.h; sourceTree = "<group>"; };
+		0E982F0D24F3EC2300A7E6BB /* BayerConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BayerConverter.h; sourceTree = "<group>"; };
+		0E982F0E24F3EC2300A7E6BB /* AGC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGC.m; sourceTree = "<group>"; };
+		0E982F0F24F3EC2300A7E6BB /* RGBScaler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGBScaler.m; sourceTree = "<group>"; };
+		0E982F1024F3EC2300A7E6BB /* Resolvers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Resolvers.c; sourceTree = "<group>"; };
+		0E982F1124F3EC2300A7E6BB /* RGBScalerIncluded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBScalerIncluded.h; sourceTree = "<group>"; };
+		0E982F1224F3EC2300A7E6BB /* JpgDecompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = JpgDecompress.c; sourceTree = "<group>"; };
+		0E982F1324F3EC2300A7E6BB /* MiscTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscTools.h; sourceTree = "<group>"; };
+		0E982F1424F3EC2300A7E6BB /* LookUpTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookUpTable.h; sourceTree = "<group>"; };
+		0E982F1524F3EC2300A7E6BB /* FrameCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameCounter.m; sourceTree = "<group>"; };
+		0E982F1624F3EC2300A7E6BB /* yuv2rgbOV420.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv2rgbOV420.c; sourceTree = "<group>"; };
+		0E982F1724F3EC2300A7E6BB /* Histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Histogram.h; sourceTree = "<group>"; };
+		0E982F1824F3EC2300A7E6BB /* MiniGraphicsTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniGraphicsTools.h; sourceTree = "<group>"; };
+		0E982F1924F3EC2300A7E6BB /* RGB888Scaler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGB888Scaler.m; sourceTree = "<group>"; };
+		0E982F1A24F3EC2300A7E6BB /* USB_VendorProductIDs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USB_VendorProductIDs.h; sourceTree = "<group>"; };
+		0E982F1B24F3EC2300A7E6BB /* yuv2rgbCPIA420.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv2rgbCPIA420.c; sourceTree = "<group>"; };
+		0E982F1C24F3EC2300A7E6BB /* yuv2rgb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yuv2rgb.h; sourceTree = "<group>"; };
+		0E982F1D24F3EC2300A7E6BB /* Resolvers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resolvers.h; sourceTree = "<group>"; };
+		0E982F1E24F3EC2300A7E6BB /* RGBScaler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGBScaler.h; sourceTree = "<group>"; };
+		0E982F1F24F3EC2300A7E6BB /* yuv2rgbPhilips.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv2rgbPhilips.c; sourceTree = "<group>"; };
+		0E982F2024F3EC2300A7E6BB /* AGC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGC.h; sourceTree = "<group>"; };
+		0E982F2124F3EC2300A7E6BB /* BayerConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BayerConverter.m; sourceTree = "<group>"; };
+		0E982F2224F3EC2300A7E6BB /* OV534Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OV534Driver.h; sourceTree = "<group>"; };
+		0E982F2324F3EC2300A7E6BB /* GenericDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericDriver.m; sourceTree = "<group>"; };
+		0E982F5F24F3ED5000A7E6BB /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		0E982F6024F3ED5000A7E6BB /* CameraManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraManager.mm; sourceTree = "<group>"; };
+		0E982F6724F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_imgproc.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982F6B24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_imgcodecs.4.4.0.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E982EB724F2CBF800A7E6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E982ED124F3C12400A7E6BB /* libopencv_core.4.4.0.dylib in Frameworks */,
+				0E982F6824F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Frameworks */,
+				0E982F6C24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E982EB024F2CBF800A7E6BB = {
+			isa = PBXGroup;
+			children = (
+				0E982EBB24F2CBF800A7E6BB /* camera_plugin */,
+				0E982EBA24F2CBF800A7E6BB /* Products */,
+				0E982ECF24F3C12400A7E6BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E982EBA24F2CBF800A7E6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EB924F2CBF800A7E6BB /* libopencv_videoio_ps3_camera_osx.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E982EBB24F2CBF800A7E6BB /* camera_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EE324F3EC2300A7E6BB /* driver */,
+				0E982F5F24F3ED5000A7E6BB /* CameraManager.h */,
+				0E982F6024F3ED5000A7E6BB /* CameraManager.mm */,
+				0E982EBC24F2CBF800A7E6BB /* camera_plugin.h */,
+				0E982EBE24F2CBF800A7E6BB /* camera_plugin.m */,
+				0E982ECA24F2F0D100A7E6BB /* plugin_api.mm */,
+				0E982ECE24F2FCD900A7E6BB /* PS3CamCapture.h */,
+				0E982ECC24F2FC6500A7E6BB /* PS3CamCapture.mm */,
+			);
+			path = camera_plugin;
+			sourceTree = "<group>";
+		};
+		0E982ECF24F3C12400A7E6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E982F6B24F5549E00A7E6BB /* libopencv_imgcodecs.4.4.0.dylib */,
+				0E982F6724F5545C00A7E6BB /* libopencv_imgproc.4.4.0.dylib */,
+				0E982ED024F3C12400A7E6BB /* libopencv_core.4.4.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E982EE324F3EC2300A7E6BB /* driver */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EE424F3EC2300A7E6BB /* sensors */,
+				0E982F2224F3EC2300A7E6BB /* OV534Driver.h */,
+				0E982EF524F3EC2300A7E6BB /* OV534Driver.m */,
+				0E982F0124F3EC2300A7E6BB /* GenericDriver.h */,
+				0E982F2324F3EC2300A7E6BB /* GenericDriver.m */,
+				0E982EF624F3EC2300A7E6BB /* driver_core */,
+				0E982F0224F3EC2300A7E6BB /* utilities */,
+			);
+			path = driver;
+			sourceTree = "<group>";
+		};
+		0E982EE424F3EC2300A7E6BB /* sensors */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EE524F3EC2300A7E6BB /* OV7670.h */,
+				0E982EE624F3EC2300A7E6BB /* OV76xx.h */,
+				0E982EE724F3EC2300A7E6BB /* OV7F7F.m */,
+				0E982EE824F3EC2300A7E6BB /* ControllerInterface.m */,
+				0E982EE924F3EC2300A7E6BB /* OmniVisionSensor.m */,
+				0E982EEA24F3EC2300A7E6BB /* Sensor.h */,
+				0E982EEB24F3EC2300A7E6BB /* OV7660.h */,
+				0E982EEC24F3EC2300A7E6BB /* OV7640.m */,
+				0E982EED24F3EC2300A7E6BB /* OV7F7F.h */,
+				0E982EEE24F3EC2300A7E6BB /* OV76xx.m */,
+				0E982EEF24F3EC2300A7E6BB /* OV7670.m */,
+				0E982EF024F3EC2300A7E6BB /* OV7660.m */,
+				0E982EF124F3EC2300A7E6BB /* Sensor.m */,
+				0E982EF224F3EC2300A7E6BB /* OmniVisionSensor.h */,
+				0E982EF324F3EC2300A7E6BB /* ControllerInterface.h */,
+				0E982EF424F3EC2300A7E6BB /* OV7640.h */,
+			);
+			path = sensors;
+			sourceTree = "<group>";
+		};
+		0E982EF624F3EC2300A7E6BB /* driver_core */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EFD24F3EC2300A7E6BB /* MyCameraDriver.h */,
+				0E982EF724F3EC2300A7E6BB /* MyCameraDriver.m */,
+				0E982EF824F3EC2300A7E6BB /* DriverLocalizable.strings */,
+				0E982EFA24F3EC2300A7E6BB /* MyDummyCameraDriver.h */,
+				0E982EFB24F3EC2300A7E6BB /* MyCameraCentral.m */,
+				0E982EFC24F3EC2300A7E6BB /* MyCameraInfo.h */,
+				0E982EFE24F3EC2300A7E6BB /* MyDummyCameraDriver.m */,
+				0E982EFF24F3EC2300A7E6BB /* MyCameraInfo.m */,
+				0E982F0024F3EC2300A7E6BB /* MyCameraCentral.h */,
+			);
+			path = driver_core;
+			sourceTree = "<group>";
+		};
+		0E982F0224F3EC2300A7E6BB /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0E982F0324F3EC2300A7E6BB /* JpgDecompress.h */,
+				0E982F0424F3EC2300A7E6BB /* MiniGraphicsTools.c */,
+				0E982F0524F3EC2300A7E6BB /* FrameCounter.h */,
+				0E982F0624F3EC2300A7E6BB /* Histogram.m */,
+				0E982F0724F3EC2300A7E6BB /* LookUpTable.m */,
+				0E982F0824F3EC2300A7E6BB /* MiscTools.c */,
+				0E982F0924F3EC2300A7E6BB /* yuv2rgb.c */,
+				0E982F0A24F3EC2300A7E6BB /* RGB888Scaler.h */,
+				0E982F0B24F3EC2300A7E6BB /* yuv2rgbCPIA422.c */,
+				0E982F0C24F3EC2300A7E6BB /* GlobalDefs.h */,
+				0E982F0D24F3EC2300A7E6BB /* BayerConverter.h */,
+				0E982F0E24F3EC2300A7E6BB /* AGC.m */,
+				0E982F0F24F3EC2300A7E6BB /* RGBScaler.m */,
+				0E982F1024F3EC2300A7E6BB /* Resolvers.c */,
+				0E982F1124F3EC2300A7E6BB /* RGBScalerIncluded.h */,
+				0E982F1224F3EC2300A7E6BB /* JpgDecompress.c */,
+				0E982F1324F3EC2300A7E6BB /* MiscTools.h */,
+				0E982F1424F3EC2300A7E6BB /* LookUpTable.h */,
+				0E982F1524F3EC2300A7E6BB /* FrameCounter.m */,
+				0E982F1624F3EC2300A7E6BB /* yuv2rgbOV420.c */,
+				0E982F1724F3EC2300A7E6BB /* Histogram.h */,
+				0E982F1824F3EC2300A7E6BB /* MiniGraphicsTools.h */,
+				0E982F1924F3EC2300A7E6BB /* RGB888Scaler.m */,
+				0E982F1A24F3EC2300A7E6BB /* USB_VendorProductIDs.h */,
+				0E982F1B24F3EC2300A7E6BB /* yuv2rgbCPIA420.c */,
+				0E982F1C24F3EC2300A7E6BB /* yuv2rgb.h */,
+				0E982F1D24F3EC2300A7E6BB /* Resolvers.h */,
+				0E982F1E24F3EC2300A7E6BB /* RGBScaler.h */,
+				0E982F1F24F3EC2300A7E6BB /* yuv2rgbPhilips.c */,
+				0E982F2024F3EC2300A7E6BB /* AGC.h */,
+				0E982F2124F3EC2300A7E6BB /* BayerConverter.m */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E982EB524F2CBF800A7E6BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E982F6124F3ED5000A7E6BB /* CameraManager.h in Headers */,
+				0E982F3224F3EC2300A7E6BB /* ControllerInterface.h in Headers */,
+				0E982F3924F3EC2300A7E6BB /* MyCameraDriver.h in Headers */,
+				0E982F2924F3EC2300A7E6BB /* Sensor.h in Headers */,
+				0E982F4724F3EC2300A7E6BB /* GlobalDefs.h in Headers */,
+				0E982F5724F3EC2300A7E6BB /* yuv2rgb.h in Headers */,
+				0E982F5B24F3EC2300A7E6BB /* AGC.h in Headers */,
+				0E982F2C24F3EC2300A7E6BB /* OV7F7F.h in Headers */,
+				0E982EBD24F2CBF800A7E6BB /* camera_plugin.h in Headers */,
+				0E982F3124F3EC2300A7E6BB /* OmniVisionSensor.h in Headers */,
+				0E982F3C24F3EC2300A7E6BB /* MyCameraCentral.h in Headers */,
+				0E982F5324F3EC2300A7E6BB /* MiniGraphicsTools.h in Headers */,
+				0E982F5824F3EC2300A7E6BB /* Resolvers.h in Headers */,
+				0E982F3324F3EC2300A7E6BB /* OV7640.h in Headers */,
+				0E982F4524F3EC2300A7E6BB /* RGB888Scaler.h in Headers */,
+				0E982F2524F3EC2300A7E6BB /* OV76xx.h in Headers */,
+				0E982F5924F3EC2300A7E6BB /* RGBScaler.h in Headers */,
+				0E982F2424F3EC2300A7E6BB /* OV7670.h in Headers */,
+				0E982F3E24F3EC2300A7E6BB /* JpgDecompress.h in Headers */,
+				0E982F5D24F3EC2300A7E6BB /* OV534Driver.h in Headers */,
+				0E982F3D24F3EC2300A7E6BB /* GenericDriver.h in Headers */,
+				0E982F3624F3EC2300A7E6BB /* MyDummyCameraDriver.h in Headers */,
+				0E982F5224F3EC2300A7E6BB /* Histogram.h in Headers */,
+				0E982F5524F3EC2300A7E6BB /* USB_VendorProductIDs.h in Headers */,
+				0E982F3824F3EC2300A7E6BB /* MyCameraInfo.h in Headers */,
+				0E982F2A24F3EC2300A7E6BB /* OV7660.h in Headers */,
+				0E982F4E24F3EC2300A7E6BB /* MiscTools.h in Headers */,
+				0E982F4824F3EC2300A7E6BB /* BayerConverter.h in Headers */,
+				0E982F4C24F3EC2300A7E6BB /* RGBScalerIncluded.h in Headers */,
+				0E982F4024F3EC2300A7E6BB /* FrameCounter.h in Headers */,
+				0E982F4F24F3EC2300A7E6BB /* LookUpTable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E982EB824F2CBF800A7E6BB /* camera_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E982EC224F2CBF800A7E6BB /* Build configuration list for PBXNativeTarget "camera_plugin" */;
+			buildPhases = (
+				0E982EB524F2CBF800A7E6BB /* Headers */,
+				0E982EB624F2CBF800A7E6BB /* Sources */,
+				0E982EB724F2CBF800A7E6BB /* Frameworks */,
+				0E982F6A24F5545C00A7E6BB /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = camera_plugin;
+			productName = camera_plugin;
+			productReference = 0E982EB924F2CBF800A7E6BB /* libopencv_videoio_ps3_camera_osx.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E982EB124F2CBF800A7E6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MDSoft;
+				TargetAttributes = {
+					0E982EB824F2CBF800A7E6BB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0E982EB424F2CBF800A7E6BB /* Build configuration list for PBXProject "camera_plugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
+			mainGroup = 0E982EB024F2CBF800A7E6BB;
+			productRefGroup = 0E982EBA24F2CBF800A7E6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E982EB824F2CBF800A7E6BB /* camera_plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E982EB624F2CBF800A7E6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E982F4224F3EC2300A7E6BB /* LookUpTable.m in Sources */,
+				0E982F5E24F3EC2300A7E6BB /* GenericDriver.m in Sources */,
+				0E982F4324F3EC2300A7E6BB /* MiscTools.c in Sources */,
+				0E982F2824F3EC2300A7E6BB /* OmniVisionSensor.m in Sources */,
+				0E982F4424F3EC2300A7E6BB /* yuv2rgb.c in Sources */,
+				0E982F2B24F3EC2300A7E6BB /* OV7640.m in Sources */,
+				0E982F3724F3EC2300A7E6BB /* MyCameraCentral.m in Sources */,
+				0E982F3A24F3EC2300A7E6BB /* MyDummyCameraDriver.m in Sources */,
+				0E982F3B24F3EC2300A7E6BB /* MyCameraInfo.m in Sources */,
+				0E982F2724F3EC2300A7E6BB /* ControllerInterface.m in Sources */,
+				0E982F5424F3EC2300A7E6BB /* RGB888Scaler.m in Sources */,
+				0E982EBF24F2CBF800A7E6BB /* camera_plugin.m in Sources */,
+				0E982F3F24F3EC2300A7E6BB /* MiniGraphicsTools.c in Sources */,
+				0E982ECB24F2F0D100A7E6BB /* plugin_api.mm in Sources */,
+				0E982F3024F3EC2300A7E6BB /* Sensor.m in Sources */,
+				0E982F4B24F3EC2300A7E6BB /* Resolvers.c in Sources */,
+				0E982F2D24F3EC2300A7E6BB /* OV76xx.m in Sources */,
+				0E982F4924F3EC2300A7E6BB /* AGC.m in Sources */,
+				0E982F2E24F3EC2300A7E6BB /* OV7670.m in Sources */,
+				0E982F4D24F3EC2300A7E6BB /* JpgDecompress.c in Sources */,
+				0E982F5C24F3EC2300A7E6BB /* BayerConverter.m in Sources */,
+				0E982F4124F3EC2300A7E6BB /* Histogram.m in Sources */,
+				0E982F2624F3EC2300A7E6BB /* OV7F7F.m in Sources */,
+				0E982F6224F3ED5000A7E6BB /* CameraManager.mm in Sources */,
+				0E982F4A24F3EC2300A7E6BB /* RGBScaler.m in Sources */,
+				0E982F3424F3EC2300A7E6BB /* OV534Driver.m in Sources */,
+				0E982ECD24F2FC6500A7E6BB /* PS3CamCapture.mm in Sources */,
+				0E982F3524F3EC2300A7E6BB /* MyCameraDriver.m in Sources */,
+				0E982F5024F3EC2300A7E6BB /* FrameCounter.m in Sources */,
+				0E982F2F24F3EC2300A7E6BB /* OV7660.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E982EF824F3EC2300A7E6BB /* DriverLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E982EF924F3EC2300A7E6BB /* English */,
+			);
+			name = DriverLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E982EC024F2CBF800A7E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/konovalov/work/projects/temp/opencv_install/include/opencv4,
+					"/Users/konovalov/work/projects/temp/opencv-master/modules/core/include",
+					"/Users/konovalov/work/projects/temp/opencv-master/modules/videoio/src",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = opencv_videio_ps3_camera_osx;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E982EC124F2CBF800A7E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/konovalov/work/projects/temp/opencv_install/include/opencv4,
+					"/Users/konovalov/work/projects/temp/opencv-master/modules/core/include",
+					"/Users/konovalov/work/projects/temp/opencv-master/modules/videoio/src",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = opencv_videio_ps3_camera_osx;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E982EC324F2CBF800A7E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/lib;
+				PRODUCT_NAME = opencv_videoio_ps3_camera_osx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0E982EC424F2CBF800A7E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/lib;
+				PRODUCT_NAME = opencv_videoio_ps3_camera_osx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E982EB424F2CBF800A7E6BB /* Build configuration list for PBXProject "camera_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E982EC024F2CBF800A7E6BB /* Debug */,
+				0E982EC124F2CBF800A7E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E982EC224F2CBF800A7E6BB /* Build configuration list for PBXNativeTarget "camera_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E982EC324F2CBF800A7E6BB /* Debug */,
+				0E982EC424F2CBF800A7E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E982EB124F2CBF800A7E6BB /* Project object */;
+}

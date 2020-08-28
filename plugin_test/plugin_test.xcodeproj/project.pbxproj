@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E982EAA24F2CBC800A7E6BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E982EA924F2CBC800A7E6BB /* main.cpp */; };
+		0E982ED624F3CCDE00A7E6BB /* libopencv_core.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982ED424F3CCDE00A7E6BB /* libopencv_core.4.4.0.dylib */; };
+		0E982ED824F3CCDE00A7E6BB /* libopencv_videoio.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982ED524F3CCDE00A7E6BB /* libopencv_videoio.4.4.0.dylib */; };
+		0E982EDC24F3CD0E00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982EDB24F3CD0E00A7E6BB /* libopencv_imgproc.4.4.0.dylib */; };
+		0E982EE024F3CD7100A7E6BB /* libopencv_highgui.4.4.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982EDF24F3CD7100A7E6BB /* libopencv_highgui.4.4.0.dylib */; };
+		0E982F6424F45BD000A7E6BB /* libopencv_videoio_ps3_camera_osx.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E982F6324F45BD000A7E6BB /* libopencv_videoio_ps3_camera_osx.so */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E982EA424F2CBC800A7E6BB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E982EA624F2CBC800A7E6BB /* plugin_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = plugin_test; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E982EA924F2CBC800A7E6BB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0E982EC624F2D8FD00A7E6BB /* libcamera_plugin.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libcamera_plugin.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E982ED424F3CCDE00A7E6BB /* libopencv_core.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_core.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982ED524F3CCDE00A7E6BB /* libopencv_videoio.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videoio.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_videoio.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982EDB24F3CD0E00A7E6BB /* libopencv_imgproc.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_imgproc.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982EDF24F3CD7100A7E6BB /* libopencv_highgui.4.4.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.4.4.0.dylib; path = ../../opencv_install/lib/libopencv_highgui.4.4.0.dylib; sourceTree = "<group>"; };
+		0E982F6324F45BD000A7E6BB /* libopencv_videoio_ps3_camera_osx.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libopencv_videoio_ps3_camera_osx.so; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E982EA324F2CBC800A7E6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E982ED624F3CCDE00A7E6BB /* libopencv_core.4.4.0.dylib in Frameworks */,
+				0E982EE024F3CD7100A7E6BB /* libopencv_highgui.4.4.0.dylib in Frameworks */,
+				0E982ED824F3CCDE00A7E6BB /* libopencv_videoio.4.4.0.dylib in Frameworks */,
+				0E982EDC24F3CD0E00A7E6BB /* libopencv_imgproc.4.4.0.dylib in Frameworks */,
+				0E982F6424F45BD000A7E6BB /* libopencv_videoio_ps3_camera_osx.so in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E982E9D24F2CBC800A7E6BB = {
+			isa = PBXGroup;
+			children = (
+				0E982EA824F2CBC800A7E6BB /* plugin_test */,
+				0E982EA724F2CBC800A7E6BB /* Products */,
+				0E982EC524F2D8FD00A7E6BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E982EA724F2CBC800A7E6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EA624F2CBC800A7E6BB /* plugin_test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E982EA824F2CBC800A7E6BB /* plugin_test */ = {
+			isa = PBXGroup;
+			children = (
+				0E982EA924F2CBC800A7E6BB /* main.cpp */,
+			);
+			path = plugin_test;
+			sourceTree = "<group>";
+		};
+		0E982EC524F2D8FD00A7E6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E982F6324F45BD000A7E6BB /* libopencv_videoio_ps3_camera_osx.so */,
+				0E982EDF24F3CD7100A7E6BB /* libopencv_highgui.4.4.0.dylib */,
+				0E982EDB24F3CD0E00A7E6BB /* libopencv_imgproc.4.4.0.dylib */,
+				0E982ED424F3CCDE00A7E6BB /* libopencv_core.4.4.0.dylib */,
+				0E982ED524F3CCDE00A7E6BB /* libopencv_videoio.4.4.0.dylib */,
+				0E982EC624F2D8FD00A7E6BB /* libcamera_plugin.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E982EA524F2CBC800A7E6BB /* plugin_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E982EAD24F2CBC800A7E6BB /* Build configuration list for PBXNativeTarget "plugin_test" */;
+			buildPhases = (
+				0E982EA224F2CBC800A7E6BB /* Sources */,
+				0E982EA324F2CBC800A7E6BB /* Frameworks */,
+				0E982EA424F2CBC800A7E6BB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plugin_test;
+			productName = plugin_test;
+			productReference = 0E982EA624F2CBC800A7E6BB /* plugin_test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E982E9E24F2CBC800A7E6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MDSoft;
+				TargetAttributes = {
+					0E982EA524F2CBC800A7E6BB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0E982EA124F2CBC800A7E6BB /* Build configuration list for PBXProject "plugin_test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E982E9D24F2CBC800A7E6BB;
+			productRefGroup = 0E982EA724F2CBC800A7E6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E982EA524F2CBC800A7E6BB /* plugin_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E982EA224F2CBC800A7E6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E982EAA24F2CBC800A7E6BB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E982EAB24F2CBC800A7E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E982EAC24F2CBC800A7E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E982EAE24F2CBC800A7E6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/include/opencv4;
+				LIBRARY_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E982EAF24F2CBC800A7E6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/include/opencv4;
+				LIBRARY_SEARCH_PATHS = /Users/konovalov/work/projects/temp/opencv_install/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E982EA124F2CBC800A7E6BB /* Build configuration list for PBXProject "plugin_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E982EAB24F2CBC800A7E6BB /* Debug */,
+				0E982EAC24F2CBC800A7E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E982EAD24F2CBC800A7E6BB /* Build configuration list for PBXNativeTarget "plugin_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E982EAE24F2CBC800A7E6BB /* Debug */,
+				0E982EAF24F2CBC800A7E6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E982E9E24F2CBC800A7E6BB /* Project object */;
+}
